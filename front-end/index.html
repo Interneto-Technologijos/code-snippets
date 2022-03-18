@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multiply number by 10</title>
+    <script src="https://code.angularjs.org/1.2.7/angular.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body ng-app="myApp" ng-controller="myController">
+    <h1>Multiply number by 10</h1>
+    <div>
+      <div>
+        <input ng-model="myNumber" />
+      </div>
+      <div>
+        <button ng-click="multiplyBy10()">Multiply by 10</button>
+      </div>
+      <div>
+        <span>{{result}}</span>
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
